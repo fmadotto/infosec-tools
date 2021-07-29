@@ -1,0 +1,45 @@
+[submodule "creddump7"]
+	path = creddump7
+	url = git@github.com:Tib3rius/creddump7.git
+[submodule "dirsearch"]
+	path = dirsearch
+	url = https://github.com/maurosoria/dirsearch.git
+[submodule "fuzzdb"]
+	path = fuzzdb
+	url = https://github.com/fuzzdb-project/fuzzdb.git
+[submodule "juicy-potato"]
+	path = juicy-potato
+	url = git@github.com:ohpe/juicy-potato.git
+[submodule "LinEnum"]
+	path = LinEnum
+	url = https://github.com/rebootuser/LinEnum.git
+[submodule "linux-exploit-suggester-2"]
+	path = linux-exploit-suggester-2
+	url = https://github.com/jondonas/linux-exploit-suggester-2
+[submodule "linux-smart-enumeration"]
+	path = linux-smart-enumeration
+	url = https://github.com/diego-treitos/linux-smart-enumeration.git
+[submodule "PowerSploit"]
+	path = PowerSploit
+	url = https://github.com/PowerShellMafia/PowerSploit.git
+[submodule "printspoofer"]
+	path = printspoofer
+	url = https://github.com/dievus/printspoofer.git
+[submodule "PEASS-ng"]
+	path = PEASS-ng
+	url = https://github.com/carlospolop/PEASS-ng.git
+[submodule "pwncat"]
+	path = pwncat
+	url = https://github.com/calebstewart/pwncat.git
+[submodule "RsaCtfTool"]
+	path = RsaCtfTool
+	url = https://github.com/Ganapati/RsaCtfTool.git
+[submodule "SharpCollection"]
+	path = SharpCollection
+	url = https://github.com/Flangvik/SharpCollection.git
+[submodule "shellgen"]
+	path = shellgen
+	url = https://github.com/Lukashku/shellgen.git
+[submodule "wesng"]
+	path = wesng
+	url = https://github.com/bitsadmin/wesng.git

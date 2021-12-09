@@ -43,3 +43,9 @@
 [submodule "juicy-potato"]
 	path = juicy-potato
 	url = https://github.com/ohpe/juicy-potato.git
+[submodule "pwndbg"]
+	path = pwndbg
+	url = git@github.com:pwndbg/pwndbg.git
+[submodule "enum4linux-ng"]
+	path = enum4linux-ng
+	url = git@github.com:cddmp/enum4linux-ng.git

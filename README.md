@@ -3,7 +3,10 @@
 Add in `.bashrc`:
 
 ```
-source /opt/infosec-tools/infosec-tools-bash-aliases
+# tools aliases
+if [ -f /opt/infosec-tools/infosec-tools-bash-aliases ]; then
+    . /opt/infosec-tools/infosec-tools-bash-aliases
+fi
 ```
 
 ## Submodules

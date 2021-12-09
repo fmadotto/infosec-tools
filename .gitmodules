@@ -49,3 +49,6 @@
 [submodule "enum4linux-ng"]
 	path = enum4linux-ng
 	url = git@github.com:cddmp/enum4linux-ng.git
+[submodule "impacket"]
+	path = impacket
+	url = git@github.com:SecureAuthCorp/impacket.git

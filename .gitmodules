@@ -19,9 +19,6 @@
 [submodule "printspoofer"]
 	path = printspoofer
 	url = https://github.com/dievus/printspoofer.git
-[submodule "PEASS-ng"]
-	path = PEASS-ng
-	url = https://github.com/carlospolop/PEASS-ng.git
 [submodule "pwncat"]
 	path = pwncat
 	url = https://github.com/calebstewart/pwncat.git

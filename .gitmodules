@@ -49,3 +49,6 @@
 [submodule "impacket"]
 	path = impacket
 	url = git@github.com:SecureAuthCorp/impacket.git
+[submodule "sherlock"]
+	path = sherlock
+	url = git@github.com:sherlock-project/sherlock.git
